@@ -6,3 +6,5 @@ if __name__ == "__main__":
     words.Print_All()            
 
     words.Sponge_Case()
+    
+    words.Hello_Planet()

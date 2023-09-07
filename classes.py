@@ -18,3 +18,15 @@ class StayClassy():
                         result += v[q].lower()
                         
         print(result)  
+        
+    def Hello_Planet(self):
+        planets = ["SATURN", "WORLD", "JUPITER", "VENUS", "NEPTUNE", "MARS", "MERCURY", "URANUS"]
+        hello_planet = []
+        for t in self.to_print:
+            for w in t:
+                for p in planets:
+                    if w.upper() == p:
+                        hello_planet.append(w)
+        
+        for i in hello_planet:
+            print(f"Hello {i}")
