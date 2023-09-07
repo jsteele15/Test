@@ -1,4 +1,3 @@
-print("hello world")
 
 class StayClassy():
     def __init__(self, *text):
@@ -19,9 +18,11 @@ class StayClassy():
                     else:
                         result += v[q].lower()
                         
-        print(result)    
-words = StayClassy("Hello", "world", "jam", "boner")
+        print(result)  
 
-words.Print_All()            
+if __name__ == "__main__":
+    words = StayClassy("Hello", "world", "jam", "boner")
 
-words.Sponge_Case()
+    words.Print_All()            
+
+    words.Sponge_Case()
